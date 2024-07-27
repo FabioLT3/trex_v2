@@ -38,7 +38,7 @@ function draw(){
   trex.collide(pisohb);
   
   if (ground.x < 0) {
-    ground.x = ground.with/2;
+    ground.x = ground.width/2;
   }
 drawSprites();
 }
